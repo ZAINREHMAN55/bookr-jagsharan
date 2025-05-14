@@ -31,7 +31,9 @@
 
     <!-- Core Style Css -->
     <link rel="stylesheet" href="./common/css/common_style.css">
+    <link rel="stylesheet" href="./inner_pages/assets/css/inner_pages.css">
     <link rel="stylesheet" href="./booked/assets/css/home12-style.css">
+
 
 </head>
 
@@ -290,12 +292,8 @@
 
     <!-- ==================== End Navbar ==================== -->
     <div id="smooth-wrapper">
-
-
         <div id="smooth-content">
-
             <main>
-
                 <!-- ==================== Start Header ==================== -->
 
                 <header class="header-mst bg-img" data-background="./booked/assets/imgs/header/bg.jpg"
@@ -385,8 +383,6 @@
                 </header>
 
                 <!-- ==================== End Header ==================== -->
-
-
 
                 <!-- ==================== Section 1 ==================== -->
                 <section class="work-matrial section1 section-padding">
@@ -543,14 +539,14 @@
                                     </h6>
                                 </div>
                                 <div class="mt-2 ms-2 text" style=" color:#dcdcdc ;">
-                                    <p>
+                                    <p class="text-white">
                                         Find and book appointments with your preferred practitioners 24/7
                                         through our intuitive mobile app. No more waiting on hold.
                                     <p>
                                 </div>
                             </div>
 
-                            <div class="col-sm-4 B-effect:hover p-3">
+                            <div class="col-sm-4 B-effect:hover p-3 border-1 border-white">
                                 <div class="card-img m-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px"
                                         viewBox="0 0 24 24" fill="none">
@@ -569,7 +565,7 @@
                                     </h6>
                                 </div>
                                 <div class="mt-2 ms-2 text" style=" color:#dcdcdc ;">
-                                    <p>
+                                    <p class="text-white">
                                         Manage all your appointments in one place, receive timely reminders,
                                         and communicate securely with your practitioners.
                                     <p>
@@ -597,7 +593,7 @@
                                     </h6>
                                 </div>
                                 <div class="mt-2 ms-2 text" style=" color:#dcdcdc ;">
-                                    <p>
+                                    <p class="text-white">
                                         Search for a wide range of practitioners. Even if they're not on Booked,
                                         our AI can help you get an appointment.
                                     <p>
@@ -749,118 +745,223 @@
 
 
 
-                <section class="testim-sm section-padding">
+                <section class="testim-sm testimonial-section section-padding">
                     <div class="container">
                         <div class="sec-head text-center mb-100">
                             <!-- <h6 class="sub-title main-color mb-15">Testimonials</h6> -->
                             <h3 class="text-u">Trusted by Professionals & Clients </h3>
                         </div>
-
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <div class="item">
-                                    <div class="">
-                                        <div class="info d-flex align-items-center pt-30">
-                                            <div>
-                                                <div class="img-author">
-                                                    <img src="./booked/assets/imgs/testim/avatar1.jpg" alt="">
+                        <div class="swiper testim-swiper swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="">
+                                            <div class="info d-flex align-items-center pt-30">
+                                                <div>
+                                                    <div class="img-author">
+                                                        <img src="./booked/assets/imgs/testim/avatar1.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="info-text">
+                                                    <span>Dr. Jane D.</span>
+                                                    <p>Physiotherapist</p>
                                                 </div>
                                             </div>
-                                            <div class="info-text">
-                                                <span>Dr. Jane D.</span>
-                                                <p>Physiotherapist</p>
+                                            <h3>“Excellent</h3>
+                                        </div>
+                                        <div>
+                                            <div class="rate">
+                                                <h5>5.0
+                                                    <span class="stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                </h5>
                                             </div>
-                                        </div>
-                                        <h3>“Excellent</h3>
-                                    </div>
-                                    <div>
-                                        <div class="rate">
-                                            <h5>5.0
-                                                <span class="stars">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </span>
-                                            </h5>
-                                        </div>
-                                        <div class="mt-15">
-                                            <h6 class="fz-16">Booked has saved me hours each week!.</h6>
+                                            <div class="mt-15">
+                                                <h6 class="fz-16">Booked has saved me hours each week!.</h6>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="item">
-                                    <div class="">
-                                        <div class="info d-flex align-items-center pt-30 mb-15">
-                                            <div>
-                                                <div class="img-author">
-                                                    <img src="./booked/assets/imgs/testim/avatar1.jpg" alt="">
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="">
+                                            <div class="info d-flex align-items-center pt-30 mb-15">
+                                                <div>
+                                                    <div class="img-author">
+                                                        <img src="./booked/assets/imgs/testim/avatar1.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="info-text">
+                                                    <span>- Alex M.</span>
+                                                    <p>Client</p>
                                                 </div>
                                             </div>
-                                            <div class="info-text">
-                                                <span>- Alex M.</span>
-                                                <p>Client</p>
+                                            <h3>“Excellent</h3>
+                                        </div>
+                                        <div>
+                                            <div class="rate">
+                                                <h5>5.0
+                                                    <span class="stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                </h5>
                                             </div>
-                                        </div>
-                                        <h3>“Excellent</h3>
-                                    </div>
-                                    <div>
-                                        <div class="rate">
-                                            <h5>5.0
-                                                <span class="stars">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </span>
-                                            </h5>
-                                        </div>
-                                        <div class="mt-15">
-                                            <h6 class="fz-16">Finally, an easy way to book all my
-                                                family's appointments</h6>
+                                            <div class="mt-15">
+                                                <h6 class="fz-16">Finally, an easy way to book all my
+                                                    family's appointments</h6>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="item">
-                                    <div class="">
-                                        <div class="info d-flex align-items-center pt-30 mb-15">
-                                            <div>
-                                                <div class="img-author">
-                                                    <img src="./booked/assets/imgs/testim/avatar1.jpg" alt="">
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="">
+                                            <div class="info d-flex align-items-center pt-30 mb-15">
+                                                <div>
+                                                    <div class="img-author">
+                                                        <img src="./booked/assets/imgs/testim/avatar1.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="info-text">
+                                                    <span>Bradley Gordon</span>
+                                                    <p>CEO & Founder, Archin Studio</p>
                                                 </div>
                                             </div>
-                                            <div class="info-text">
-                                                <span>Bradley Gordon</span>
-                                                <p>CEO & Founder, Archin Studio</p>
+                                            <h3>“Excellent</h3>
+                                        </div>
+                                        <div>
+                                            <div class="rate">
+                                                <h5>5.0
+                                                    <span class="stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                </h5>
                                             </div>
-                                        </div>
-                                        <h3>“Excellent</h3>
-                                    </div>
-                                    <div>
-                                        <div class="rate">
-                                            <h5>5.0
-                                                <span class="stars">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </span>
-                                            </h5>
-                                        </div>
-                                        <div class="mt-15">
-                                            <h6 class="fz-16">Your glow-up starts now. Book your appointment</h6>
+                                            <div class="mt-15">
+                                                <h6 class="fz-16">Your glow-up starts now. Book your appointment</h6>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                               
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="">
+                                            <div class="info d-flex align-items-center pt-30">
+                                                <div>
+                                                    <div class="img-author">
+                                                        <img src="./booked/assets/imgs/testim/avatar1.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="info-text">
+                                                    <span>Dr. Jane D.</span>
+                                                    <p>Physiotherapist</p>
+                                                </div>
+                                            </div>
+                                            <h3>“Excellent</h3>
+                                        </div>
+                                        <div>
+                                            <div class="rate">
+                                                <h5>5.0
+                                                    <span class="stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                </h5>
+                                            </div>
+                                            <div class="mt-15">
+                                                <h6 class="fz-16">Booked has saved me hours each week!.</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="">
+                                            <div class="info d-flex align-items-center pt-30 mb-15">
+                                                <div>
+                                                    <div class="img-author">
+                                                        <img src="./booked/assets/imgs/testim/avatar1.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="info-text">
+                                                    <span>- Alex M.</span>
+                                                    <p>Client</p>
+                                                </div>
+                                            </div>
+                                            <h3>“Excellent</h3>
+                                        </div>
+                                        <div>
+                                            <div class="rate">
+                                                <h5>5.0
+                                                    <span class="stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                </h5>
+                                            </div>
+                                            <div class="mt-15">
+                                                <h6 class="fz-16">Finally, an easy way to book all my
+                                                    family's appointments</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="item">
+                                        <div class="">
+                                            <div class="info d-flex align-items-center pt-30 mb-15">
+                                                <div>
+                                                    <div class="img-author">
+                                                        <img src="./booked/assets/imgs/testim/avatar1.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="info-text">
+                                                    <span>Bradley Gordon</span>
+                                                    <p>CEO & Founder, Archin Studio</p>
+                                                </div>
+                                            </div>
+                                            <h3>“Excellent</h3>
+                                        </div>
+                                        <div>
+                                            <div class="rate">
+                                                <h5>5.0
+                                                    <span class="stars">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </span>
+                                                </h5>
+                                            </div>
+                                            <div class="mt-15">
+                                                <h6 class="fz-16">Your glow-up starts now. Book your appointment</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                               
                             </div>
-
                         </div>
                     </div>
 
@@ -868,296 +969,203 @@
 
 
                 <!-- ==================== End Portfolio ==================== -->
-                <section class=" bg-white ">
-                    <div>
-                        <div class="cta text-start ">
-                            <div class="cta-shape">
-                                <svg xmlns="http://www.w3.org/2000/svg" style="height: 100%; width: 100%;"
-                                    viewBox="0 0 330 683" fill="none">
-                                    <g clip-path="url(#clip0_2_13)">
-                                        <circle cx="341.5" cy="341.5" r="341.5" fill="white" fill-opacity="0.21" />
-                                        <circle cx="341" cy="341" r="280" fill="white" fill-opacity="0.35" />
-                                        <circle cx="341.5" cy="341.5" r="222.5" fill="white" fill-opacity="0.37" />
-                                        <circle cx="341" cy="341" r="174" fill="white" fill-opacity="0.44" />
-                                        <circle cx="341.5" cy="341.5" r="123.5" fill="white" fill-opacity="0.71" />
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_2_13">
-                                            <rect width="330" height="683" fill="white" />
-                                        </clipPath>
-                                    </defs>
-                                </svg>
+
+
+                <!-- ==================== Start Contact ==================== -->
+                <section class="contact-pg section-padding" style="background-color: #fff;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5 valign">
+                                <div class="full-width md-mb80">
+                                    <div class="sec-head md-mb80">
+                                        <h2 class="text-u">
+                                            Let's make your <br> brand <span class="fw-200">
+                                                brilliant!</span>
+                                        </h2>
+                                        <p class="mt-20 mb-20">If you would like to work with us or just want to get in
+                                            touch, we’d love to hear from you!</p>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="morinfo mt-30">
+                                                    <h6 class="mb-15">Address</h6>
+                                                    <p>Besòs 1, 08174 Sant Cugat del Vallès, Barcelona</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="morinfo mt-30">
+                                                    <h6 class="mb-15">Email</h6>
+                                                    <p>Support@uithemez.com</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="phone fz-30 fw-600 mt-30 underline main-color">
+                                            <a href="#0">+1 840 841 25 69</a>
+                                        </div>
+                                    </div>
+                                    <ul class="rest social-text d-flex mt-60 fz-16">
+                                        <li class="mr-30">
+                                            <a href="#0" class="hover-this"><span class="hover-anim">Facebook</span></a>
+                                        </li>
+                                        <li class="mr-30">
+                                            <a href="#0" class="hover-this"><span class="hover-anim">Twitter</span></a>
+                                        </li>
+                                        <li class="mr-30">
+                                            <a href="#0" class="hover-this"><span class="hover-anim">LinkedIn</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#0" class="hover-this"><span
+                                                    class="hover-anim">Instagram</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <h4 class="text-white">
-                                Ready to Transform Your Scheduling?
-                            </h4>
-                            <div class="d-flex gap-3  ">
-                                <!-- <div class="d-flex b-radious bg-white"> -->
-                                    <a href="./inner_pages/contact.html" class="butn butn-md butn-rounded bg-light mt-30">
-                                    <div class="d-flex align-items-center">
-                                        <span style="color: black;">Start Your Free Trail</span>
-                                        <span class="icon ml-10">
-                                            <img src="./common/imgs/icons/arrow-top-right.svg" alt="">
-                                        </span>
+                            <div class="col-lg-6 offset-lg-1 valign">
+                                <div class="full-width">
+                                    <div class="sec-head mb-50">
+                                        <h6 class="sub-head">Send a <span class="fw-200">message</span></h6>
                                     </div>
-                                </a>
-                                    <a href="./inner_pages/contact.html" class="butn butn-md butn-rounded bg-light mt-30">
-                                    <div class="d-flex align-items-center">
-                                        <span style="color: black;">Download the Client App</span>
-                                        <span class="icon ml-10">
-                                            <img src="./common/imgs/icons/arrow-top-right.svg" alt="">
-                                        </span>
-                                    </div>
-                                </a>
-                                <!-- </div>
-                                <div class="d-flex b-radious bg-white">
-                                    <div class="text-black px-3 py-3">
-                                        Start Your Free Trial
-                                    </div>
-                                    <div class="  p-3 mr-2">
-                                        <span class="icon ml-10 align-center">
+                                    <form id="contact-form" method="post" action="contact.php">
+
+                                        <div class="messages"></div>
+
+                                        <div class="controls row">
+
+                                            <div class="col-lg-6">
+                                                <div class="form-group mb-30">
+                                                    <input id="form_name" type="text" name="name" placeholder="Name"
+                                                        required="required">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6">
+                                                <div class="form-group mb-30">
+                                                    <input id="form_email" type="email" name="email" placeholder="Email"
+                                                        required="required">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <div class="form-group mb-30">
+                                                    <input id="form_subject" type="text" name="subject"
+                                                        placeholder="Subject">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <textarea id="form_message" name="message" placeholder="Message"
+                                                        rows="4" required="required"></textarea>
+                                                </div>
+                                                <div class="mt-30">
+                                                    <button type="submit" class="butn butn-md butn-bord butn-rounded">
+                                                        <div class="d-flex align-items-center">
+                                                            <span>Let's Talking</span>
+                                                            <span class="icon ml-10">
+                                                                <img src="../common/imgs/icons/arrow-top-right.svg"
+                                                                    alt="">
+                                                            </span>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- ==================== End Contact ==================== -->
+
+
+                <!-- ==================== Start CTA ==================== -->
+                <section class="cta rounded-0">
+
+                    <div class=" text-start ">
+                        <div class="cta-shape">
+                            <svg xmlns="http://www.w3.org/2000/svg" style="height: 100%; width: 100%;"
+                                viewBox="0 0 330 683" fill="none">
+                                <g clip-path="url(#clip0_2_13)">
+                                    <circle cx="341.5" cy="341.5" r="341.5" fill="white" fill-opacity="0.21" />
+                                    <circle cx="341" cy="341" r="280" fill="white" fill-opacity="0.35" />
+                                    <circle cx="341.5" cy="341.5" r="222.5" fill="white" fill-opacity="0.37" />
+                                    <circle cx="341" cy="341" r="174" fill="white" fill-opacity="0.44" />
+                                    <circle cx="341.5" cy="341.5" r="123.5" fill="white" fill-opacity="0.71" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2_13">
+                                        <rect width="330" height="683" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <h3 class="text-white">
+                            Ready to Transform Your Scheduling?
+                        </h3>
+                        <div class="d-flex gap-3  ">
+                            <!-- <div class="d-flex b-radious bg-white"> -->
+                            <a href="./inner_pages/contact.html" class="butn butn-md butn-rounded bg-light mt-30">
+                                <div class="d-flex align-items-center">
+                                    <span style="color: black;">Start Your Free Trail</span>
+                                    <span class="icon ml-10">
                                         <img src="./common/imgs/icons/arrow-top-right.svg" alt="">
                                     </span>
-                                    </div>
                                 </div>
-                            </div>
-                        </div> -->
-                    <!-- </div> -->
-        <!-- </div> -->
-        </section>
-
-        <!-- ==================== Start Services ==================== -->
-
-        <!-- <section class="services-accord2 section-padding">
-            <div class="container">
-                <div class="sec-head mb-80 d-flex align-items-center bord-thin-bottom-light pb-15">
-                    <div>
-                        <h6 class="text-u">Our Services</h6>
-                    </div>
-                    <div class="ml-auto">
-                        <a href="./inner_pages/services.html" class="butn butn-md butn-bord butn-rounded">
-                            <div class="d-flex align-items-center">
-                                <span>See Our Approach</span>
-                                <span class="icon ml-10">
-                                    <i class="fa-solid fa-chevron-right"></i>
-                                </span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="accordion wow fadeInUp slow" data-wow-delay="0.4s" id="accordionExample">
-                    <div class="accordion-item">
-                        <div class="accordion-header" id="heading1">
-                            <div class="accordion-title" data-bs-toggle="collapse" data-bs-target="#collapse1"
-                                aria-expanded="true" aria-controls="collapse1">
-                                <div class="d-flex align-items-end">
-                                    <div class="title">
-                                        <h2>Brand Strategy</h2>
-                                    </div>
-                                    <div class="numb ml-auto">
-                                        <span>001</span>
-                                    </div>
+                            </a>
+                            <a href="./inner_pages/contact.html" class="butn butn-md butn-rounded bg-light mt-30">
+                                <div class="d-flex align-items-center">
+                                    <span style="color: black;">Download the Client App</span>
+                                    <span class="icon ml-10">
+                                        <img src="./common/imgs/icons/arrow-top-right.svg" alt="">
+                                    </span>
                                 </div>
-                            </div>
-                        </div>
-                        <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="text">
-                                            <p>Development and building amazing digital products with best user
-                                                experiences strategy. Development and building amazing digital
-                                                products with best user experiences strategy.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-5 offset-lg-1">
-                                        <div class="sm-hide">
-                                            <div class="img fit-img">
-                                                <img src="./booked/assets/imgs/services/1.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
-                    <div class="accordion-item">
-                        <div class="accordion-header" id="heading2">
-                            <div class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2"
-                                aria-expanded="true" aria-controls="collapse2">
-                                <div class="d-flex align-items-end">
-                                    <div class="title">
-                                        <h2>Web Developments</h2>
-                                    </div>
-                                    <div class="numb ml-auto">
-                                        <span>002</span>
-                                    </div>
-                                </div>
+
+                </section>
+                <!-- ==================== Start CTA ==================== -->
+
+
+
+
+            </main>
+
+
+            <!-- ==================== Start Footer ==================== -->
+
+            <footer class="footer-mp section-padding pb-0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="info-item md-mb30">
+                                <span class="fz-18 text-u sub-color mb-10">Products</span>
+                                <h6>Feature <br></h6>
+                                <h6>Pricing <br></h6>
+                                <h6>Testominal <br></h6>
+                                <h6>Integrations<br></h6>
                             </div>
                         </div>
-                        <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="text">
-                                            <p>Development and building amazing digital products with best user
-                                                experiences strategy. Development and building amazing digital
-                                                products with best user experiences strategy.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-5 offset-lg-1">
-                                        <div class="sm-hide">
-                                            <div class="img fit-img">
-                                                <img src="./booked/assets/imgs/services/2.jpg" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="col-lg-4">
+                            <div class="info-item md-mb30">
+                                <span class="fz-18 text-u sub-color mb-10">Resources</span>
+                                <h6>Blog <br></h6>
+                                <h6>Help Center<br></h6>
+                                <h6>Guides<br></h6>
+                                <h6>API Dos<br></h6>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <div class="accordion-header" id="heading3">
-                            <div class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#collapse3"
-                                aria-expanded="true" aria-controls="collapse3">
-                                <div class="d-flex align-items-end">
-                                    <div class="title">
-                                        <h2>Branding</h2>
-                                    </div>
-                                    <div class="numb ml-auto">
-                                        <span>003</span>
-                                    </div>
-                                </div>
+                        <div class="col-lg-4">
+                            <div class="info-item md-mb30">
+                                <span class="fz-18 text-u sub-color mb-10">Company</span>
+                                <h6>About Us<br></h6>
+                                <h6>Careers<br></h6>
+                                <h6>Contact<br></h6>
+                                <h6>Partners<br></h6>
                             </div>
                         </div>
-                        <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="text">
-                                            <p>Development and building amazing digital products with best user
-                                                experiences strategy. Development and building amazing digital
-                                                products with best user experiences strategy.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-5 offset-lg-1">
-                                        <div class="sm-hide">
-                                            <div class="img fit-img">
-                                                <img src="./booked/assets/imgs/services/3.jpg" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <div class="accordion-header" id="heading4">
-                            <div class="accordion-title collapsed" data-bs-toggle="collapse" data-bs-target="#collapse4"
-                                aria-expanded="true" aria-controls="collapse4">
-                                <div class="d-flex align-items-end">
-                                    <div class="title">
-                                        <h2>Design</h2>
-                                    </div>
-                                    <div class="numb ml-auto">
-                                        <span>004</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="text">
-                                            <p>Development and building amazing digital products with best user
-                                                experiences strategy. Development and building amazing digital
-                                                products with best user experiences strategy.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-5 offset-lg-1">
-                                        <div class="sm-hide">
-                                            <div class="img fit-img">
-                                                <img src="./booked/assets/imgs/services/4.jpg" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-        <!-- ==================== End Services ==================== -->
-
-
-
-
-
-
-        <!-- ==================== Start about ==================== -->
-
-      
-        <!-- ==================== End about ==================== -->
-
-
-
-        <!-- ==================== Start Testimonials ==================== -->
-
-        <!-- ==================== End Testimonials ==================== -->
-
-
-
-        <!-- ==================== Start Blog ==================== -->
-
-        
-
-        <!-- ==================== End Blog ==================== -->
-
-
-
-        </main>
-
-
-        <!-- ==================== Start Footer ==================== -->
-
-        <footer class="footer-mp section-padding pb-0">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="info-item md-mb30">
-                            <span class="fz-18 text-u sub-color mb-10">Products</span>
-                            <h6>Feature <br></h6>
-                            <h6>Pricing <br></h6>
-                            <h6>Testominal <br></h6>
-                            <h6>Integrations<br></h6>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="info-item md-mb30">
-                            <span class="fz-18 text-u sub-color mb-10">Resources</span>
-                            <h6>Blog <br></h6>
-                            <h6>Help Center<br></h6>
-                            <h6>Guides<br></h6>
-                            <h6>API Dos<br></h6>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="info-item md-mb30">
-                            <span class="fz-18 text-u sub-color mb-10">Company</span>
-                            <h6>About Us<br></h6>
-                            <h6>Careers<br></h6>
-                            <h6>Contact<br></h6>
-                            <h6>Partners<br></h6>
-                        </div>
-                    </div>
-                    <!-- <div class="col-lg-4 d-flex">
+                        <!-- <div class="col-lg-4 d-flex">
                             <div class="ml-auto ml-none">
                                 <div class="social-icon">
                                     <a href="#0">
@@ -1175,40 +1183,40 @@
                                 </div>
                             </div>
                         </div> -->
-                </div>
-                <div class="footer-logo">
-                    <h1><span>Booked from Booker</span></h1>
-                    <!-- <div class="union">
+                    </div>
+                    <div class="footer-logo">
+                        <h1><span>Booked from Booker</span></h1>
+                        <!-- <div class="union">
                             <img src="./booked/assets/imgs/cirle-text.svg" alt="">
                             <div class="icon">
                                 <img src="./booked/assets/imgs/union.svg" alt="">
                             </div> -->
-                </div>
-            </div>
-            <div class="sub-footer pt-30 pb-30 mt-30 bord-thin-top">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <div class="copy sub-color md-mb30">
-                            <p>© 2025 <a href="#0"> Booked</a>. All Right Reserved</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 d-flex justify-content-end">
-                        <div class="links sub-color d-flex justify-content-between">
-                            <a href="#" class="active">Legal</a>
-                            <a href="./inner_pages/portfolio-standard.html">Privacy Policy</a>
-                            <a href="./inner_pages/about.html">Terms of Servicey</a>
-                            <a href="./inner_pages/blog-standard.html">Cookie Policy</a>
-                        </div>
                     </div>
                 </div>
-            </div>
+                <div class="sub-footer pt-30 pb-30 mt-30 bord-thin-top">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="copy sub-color md-mb30">
+                                <p>© 2025 <a href="#0"> Booked</a>. All Right Reserved</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 d-flex justify-content-end">
+                            <div class="links sub-color d-flex justify-content-between">
+                                <a href="#" class="active">Legal</a>
+                                <a href="./inner_pages/portfolio-standard.html">Privacy Policy</a>
+                                <a href="./inner_pages/about.html">Terms of Servicey</a>
+                                <a href="./inner_pages/blog-standard.html">Cookie Policy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-        </footer>
+            </footer>
 
-        <!-- ==================== End Footer ==================== -->
+            <!-- ==================== End Footer ==================== -->
 
 
-    </div>
+        </div>
 
     </div>
 

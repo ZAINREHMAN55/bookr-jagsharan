@@ -5,9 +5,8 @@ $(function () {
 
     var testim = new Swiper(".testim-sm .testim-swiper", {
         slidesPerView: 3,
-        spaceBetween: 30,
-        centeredSlides: true,
-        loop: true,
+        spaceBetween: 20,
+        centeredSlides: true, 
         speed: 1500,
         autoplay: {
             delay: 5000,
