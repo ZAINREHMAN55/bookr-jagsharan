@@ -11,6 +11,11 @@
     position: relative;
     overflow: hidden;
   }
+  .trail{
+    border-radius: 20%;
+    
+
+  }
   .cta-shape{
     position: absolute;
     top: 0;
