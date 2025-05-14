@@ -127,11 +127,14 @@
     transition: border 5sec  ease;
      box-shadow :5sec ease ;
   }
-
-  .B-effect:hover {
+ .sec-padding{
+  margin-top: 5rem !important;
+ }
+ .B-effect:hover {
     border-color: #557de3 !important;
     box-shadow: 0 0 10px rgba(85, 125, 227, 0.2);
   }
+
 .clock-icon{
   width: 50px;
   height: 50px;
@@ -161,6 +164,9 @@
   width: 20%;
   padding: 0%;
   /* align-self: center; */
+}
+.m-top{
+  margin: 5rem;
 }
 .hero-mst .img {
     height: 500px;
@@ -249,7 +255,7 @@
 .work-matrial {
   background: #fff;
   border-radius: 50px 50px 0 0;
-  margin-top: -60px;
+  margin-top: 60px;
   padding-bottom: 200px;
   position: relative;
   z-index: 5; }

@@ -4,6 +4,37 @@
   --theme-color: #D4DEE7;
 }
 
+  .cta{
+    background-color: #4340d5 !important;
+    padding: 5rem;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  .cta-shape{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+.circle{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #bbbbbc !important;
+  align-self: center;
+  font-size: large;
+}
+.cta h4{
+  font-size: 5.5vh;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+.b-radious{
+  border-radius: 4rem;
+  margin-top: 3rem;
+}
+
+
 /* --------------- Menu --------------- */
 .navbar {
   position: absolute;
