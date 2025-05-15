@@ -1911,7 +1911,7 @@ p {
       background-color: var(--bg-color);
       border-radius: 5rem;
       padding: 0.5rem;
-      width: 50%;
+      width: 100%;
       /* align-self: center; */
       gap: 1rem; 
     }
