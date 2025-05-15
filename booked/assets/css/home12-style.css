@@ -12,6 +12,13 @@
   overflow: hidden;
 }
 
+.logo-text{
+  color: #fff; 
+  font-size:1rem ; 
+  font-weight: bold; 
+  align-self: center; 
+  letter-spacing: normal !important;
+}
 .trail {
   border-radius: 20%;
 
